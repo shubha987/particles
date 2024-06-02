@@ -1,12 +1,14 @@
-import './App.css';
-
+import './App.module.css';
+import Content from './components/content';
+import Glow from './components/glow';
 import ParticlesComponent from './components/particles';
 
 function App() {
   return (
     <div className="App">
       <ParticlesComponent id="particles" />
-      <h1>Particles are so fun!</h1>
+      <Glow/>
+      <Content/> 
     </div>
   );
 }
